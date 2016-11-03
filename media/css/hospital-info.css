@@ -1,0 +1,413 @@
+.header-bottom {
+    border-bottom: 1px solid #8ed5da;
+}
+.clear {
+    clear: both;
+}
+#content {
+    background-color: #e9ebee;
+}
+.common-links {
+    float: right;
+    overflow: hidden;
+}
+.common-links ul {
+    margin-bottom: 0;
+}
+.common-links ul li a {
+    background-color: #FFFFFF;
+}
+.hospital-info {
+    margin: 34px 0 58px 0;
+    overflow: hidden;
+    padding-right: 13px;
+}
+
+
+/*tab*/
+
+.common-links ul li {
+    float: left;
+    margin-right: 5px;
+}
+.common-links ul li:last-child {
+    margin-right: 0;
+}
+.common-links ul li a {
+    font-size: 18px;
+    color: #3d3d3d;
+    text-decoration: none;
+    padding: 13px 42px 13px 42px;
+    display: block;
+}
+.common-links ul li a span {
+    padding-right: 10px;
+}
+.common-links ul li a span img {
+    height: 26px;
+}
+.hospital-info-content {
+    background-color: #FFFFFF;
+    margin-top: 10px;
+    padding-bottom: 15px;
+}
+.tab-info-links {
+    background-color: #f5f5f5;
+}
+.tab-info-links li {
+    /*border-left: 7px solid #c6c6c6;*/
+    margin-bottom: 1px;
+    border-bottom: 1px solid #eaebef;
+}
+.tab-info-links ul li a {
+    color: #767575;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 16px 0 16px 24px;
+    display: block;
+    border-left: 7px solid #c6c6c6;
+}
+.tab-info-links ul li .active-info {
+    color: #35bfae;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #FFFFFF;
+    border-left: 7px solid #35bfae;
+}
+.doctor-info-box {
+    margin-top: 60px;
+    padding-left: 0;
+    padding-right: 12px;
+}
+.doctor-info-box .change-photo {
+    background-color: #35bfae;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: bold;
+    overflow: hidden;
+    bottom: 6px;
+    position: relative;
+    cursor: pointer;
+    width: 253px;
+    padding: 6px 0 6px 0;
+}
+.info-doc-photo .change-photo-txt {
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    float: left;
+    padding: 4px 0 0 19px;
+}
+.change-photo span {
+    padding: 2px 0 0 44px;
+    float: left;
+}
+
+
+
+
+
+.registr-form-tab {
+    overflow: hidden;
+}
+.registr-form-tab form {
+    overflow: hidden;
+}
+.about-photo-inf  {
+    padding-left: 0;
+}
+.about-photo-inf .separate-box {
+    padding-left: 3px;
+    padding-right: 20px;
+}
+.registr-form-tab input::-webkit-input-placeholder {
+    color: #3d3d3d;
+    font-size: 18px;
+}
+.registr-form-tab input:-moz-placeholder {
+    color: #3d3d3d;
+    font-size: 18px;
+}
+.registr-form-tab input::-moz-placeholder {
+    color: #3d3d3d;
+    font-size: 18px;
+}
+.registr-form-tab input {
+    outline: none;
+}
+.registr-form-tab input:focus {
+    outline: none;
+
+}
+.registr-form-tab .registr-box {
+    background-color: #FFFFFF;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -o-border-radius: 0;
+    -moz-border-radius: 0;
+    padding-left: 17px;
+    height: 48px;
+    width: 100%;
+    /*box-shadow: 0px 16px 2px -14px #d7d7d7;*/
+    box-shadow: 0px 1px 4px 1px #d7d7d7;
+    -webkit-box-shadow: 0px 1px 4px 1px #d7d7d7;
+    -o-box-shadow: 0px 1px 4px 1px #d7d7d7;
+    -moz-box-shadow: 0px 1px 4px 1px #d7d7d7;
+}
+.form-group label {
+    color: #969595;
+    font-size: 18px;
+    margin-bottom: 3px;
+}
+.registr-checkbox {
+    margin-top: 27px;
+}
+.registr-checkbox label {
+    color: #3d3d3d;
+    font-size: 16px;
+    font-weight: normal;
+}
+.registr-checkbox input {
+    margin-right: 3px;
+    vertical-align: top;
+}
+.registr-form-tab .reg-btn {
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #35bfae;
+}
+.registr-form-tab .reg-btn {
+    border: none;
+    outline: none;
+    box-shadow: none;
+    padding: 15px 36px 15px 36px;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -o-border-radius: 2px;
+    -moz-border-radius: 2px;
+}
+.registr-form-tab .form-group {
+    margin-bottom: 14px;
+}
+.registr-form-tab .reg-btn:focus {
+    background-color: #35bfae;
+    color: #FFFFFF;
+}
+.registr-check {
+    overflow: hidden;
+    margin-top: 17px;
+}
+.aftr-form {
+    float: right;
+    margin: 52px 18px 0 0;
+}
+.prev-next-link {
+    float: left;
+    padding: 9px 32px 0 0;
+}
+.prev-next-link ul li a {
+    color: #545454;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.prev-next-link ul li a i {
+    font-size: 22px;
+    vertical-align: top;
+    padding-left: 9px;
+}
+.save-block {
+    float: left;
+}
+.save-block .save-btn {
+    font-size: 25px;
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: #35bfae;
+    padding: 0px 43px 1px 42px;
+}
+.save-block .save-btn:focus {
+    box-shadow: none;
+}
+
+
+@media (max-width: 1200px) {
+    .doctor-info-box .change-photo {
+        width: 100%;
+    }
+    .change-photo span {
+        padding: 2px 0 0 18px;
+    }
+}
+@media (max-width: 993px) {
+    .doctor-info-box {
+        padding-left: 15px;
+    }
+    .about-photo-inf {
+        padding-right: 0;
+    }
+    .about-photo-inf .separate-box {
+        padding-left: 15px;
+    }
+    .doctor-info-box .change-photo {
+        width: 253px;
+    }
+}
+@media (max-width: 340px) {
+    .doctor-info-box .change-photo {
+        width: 100%;
+    }
+    .info-doc-photo .change-photo-txt {
+        font-size: 16px;
+        padding: 7px 0 0 12px;
+    }
+}
+@media (max-width: 690px) {
+    .common-links ul li a {
+        font-size: 16px;
+        padding: 13px 35px 13px 35px;
+    }
+}
+@media (max-width: 620px) {
+    .common-links ul li a {
+        padding: 13px 20px 13px 20px;
+    }
+}
+@media (max-width: 526px) {
+    .common-links ul li {
+        float: none;
+        margin-bottom: 12px;
+        margin-right: 0;
+    }
+}
+@media (max-width: 313px) {
+    .aftr-form {
+        margin-left: 15px;
+    }
+}
+.doctor-info-box {
+    display: none;
+}
+.select-inf {
+    display: block;
+}
+.ph-top .num-icon {
+    background-color: #27a293;
+    float: left;
+    padding: 6px 12px 2px 13px;
+    height: 35px;
+    /*width: 38px;*/
+}
+.ph-top .ph-title {
+    background-color: #35bfae;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 5px 23px 5px 19px;
+    float: left;
+    margin-bottom: 0;
+    /*width: 196px;*/
+}
+.doctor-info-box .ph-top {
+    overflow: hidden;
+    padding-left: 0;
+    padding-right: 0;
+}
+.doctor-info-box .table-block {
+    padding-right: 33px;
+    /* margin-right: 19px; */
+    /*padding-left: 0;*/
+    margin-bottom: 30px;
+}
+.ph-bottom {
+    padding-left: 0;
+    padding-right: 0;
+}
+.ph-bottom .number-box {
+    background-color: #f5f5f5;
+    color: #3d3d3d;
+    font-size: 16px;
+    float: left;
+    /*width: 38px;*/
+    height: 32px;
+    padding: 5px 14px 5px 15px;
+}
+.ph-top .home-phone-icon {
+    padding: 8px 12px 2px 6px;
+}
+.ph-top .email-icon {
+   padding: 7px 6px 2px 10px;
+}
+.ph-top .media-icon {
+    padding: 7px 12px 2px 8px;
+}
+.ph-bottom .telephone-number {
+    float: left;
+    background-color: #FFFFFF;
+    color: #969595;
+    font-size: 18px;
+    /* padding-right: 12px; */
+    padding: 4px 8px 0px 19px;
+    margin-bottom: 0;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -o-border-radius: 0;
+    -moz-border-radius: 0;
+    width: 83%;
+}
+.ph-bottom .telephone-number::-webkit-input-placeholder {
+    color: #969595;
+    font-size: 18px;
+}
+.ph-bottom .telephone-number:-moz-placeholder {
+    color: #969595;
+    font-size: 18px;
+}
+.ph-bottom .telephone-number::-moz-placeholder {
+    color: #969595;
+    font-size: 18px;
+}
+.ph-bottom {
+    border-left: 1px solid #e2e2e2;
+    border-right: 1px solid #e2e2e2;
+    border-bottom: 1px solid #e2e2e2;
+    overflow: hidden;
+}
+.ph-bottom .media-box {
+    padding: 5px 14px 5px 8px;
+}
+.ph-bottom .telephone-number:focus {
+    outline: none;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    -o-box-shadow: none;
+    -moz-box-shadow: none;
+}
+.table-block .number-table {
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+@media(max-width: 550px) {
+    .doctor-info-box .table-block {
+        padding-right: 15px;
+    }
+}
+@media (max-width: 500px) {
+    .ph-top .num-icon {
+       display: none;
+    }
+    .ph-top .ph-title {
+        width: 100%;
+    }
+    .ph-bottom .media-box {
+        width: 16%;
+        padding: 5px 14px 5px 4px;
+    }
+}
+
+
+
+/*doctor's contacts*/
+

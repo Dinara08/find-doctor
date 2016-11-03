@@ -1,0 +1,437 @@
+
+#content {
+    background-color: #e9ebee;
+}
+.clear {
+    clear: both;
+}
+.registration-block {
+    margin: 34px 0 34px 0;
+    padding-right: 13px;
+}
+#registration {
+    padding: 34px 50px 40px 50px;
+    background-color: #FFFFFF;
+    /*box-shadow: 0px 4px 17px -3px grey;*/
+    box-shadow: 0px 1px 4px 1px #d7d7d7;
+}
+.registr-box {
+    padding-left: 0;
+    /*float: right;*/
+}
+.registr-btn-group {
+    border-bottom: 1px solid #eeeeee;
+    padding-bottom: 20px;
+    overflow: hidden;
+    float: right;
+    /*margin-right: 60px;*/
+}
+.registr-btn-group a {
+    float: left;
+}
+/*.registr-facebook-btn  i {*/
+    /*font-size: 30px;*/
+    /*color: #FFFFFF;*/
+    /*padding-right: 14px;*/
+/*}*/
+.registr-facebook-btn em {
+    margin-left: 20px;
+    border-left: 1px solid #164e95;
+    padding-left: 18px;
+}
+.registr-facebook-btn  {
+    /*background: url(../img/registr-facebook-btn.png) no-repeat;*/
+    background-color: #22589b;
+    /*width: 225px;*/
+    /*height: 54px;*/
+    display: block;
+    margin-right: 17px;
+    color: #FFFFFF;
+    font-size: 26px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 8px 38px 8px 28px;
+}
+.registr-facebook-btn:hover {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.registr-google-plus-btn {
+    /*background: url(../img/registr-google-plus-btn.png) no-repeat;*/
+    background-color: #ff482d;
+    /*width: 225px;*/
+    /*height: 54px;*/
+    display: block;
+    /*margin-right: 17px;*/
+    color: #FFFFFF;
+    font-size: 26px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 9px 17px 8px 16px;
+}
+.registr-google-plus-btn:hover {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.registr-google-plus-btn i {
+    font-size: 27px;
+    color: #FFFFFF;
+
+    padding-right: 14px;
+    overflow: hidden;
+}
+.registr-google-plus-btn em {
+    margin-left: 20px;
+    border-left: 1px solid #d03927;
+    padding-left: 14px;
+}
+.registr-facebook-btn:focus {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.registr-google-plus-btn:focus {
+    color: #FFFFFF;
+    text-decoration: none;
+    float: left;
+    display: block;
+}
+.registr-form-page {
+    margin-top: 18px;
+}
+.registr-form-page input::-webkit-input-placeholder {
+    color: #3d3d3d;
+    font-size: 18px;
+}
+.registr-form-page input:-moz-placeholder {
+    color: #3d3d3d;
+    font-size: 18px;
+}
+.registr-form-page input::-moz-placeholder {
+    color: #3d3d3d;
+    font-size: 18px;
+}
+.registr-form-page input {
+    outline: none;
+}
+.registr-form-page input:focus {
+    outline: none;
+
+}
+@media (max-width: 330px) {
+    /*.registr-btn-group a img {*/
+        /*display: none;*/
+    /*}*/
+    /*.registr-facebook-btn em {*/
+        /*border-left: none;*/
+    /*}*/
+    /*.registr-google-plus-btn em {*/
+        /*border-left: none;*/
+    /*}*/
+    #registration {
+        padding: 34px 18px 40px 30px;
+    }
+    .registr-google-plus-btn em {
+        margin-left: 17px;
+    }
+}
+.registr-form-page .registr-box {
+    background-color: #FFFFFF;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -o-border-radius: 0;
+    -moz-border-radius: 0;
+    padding-left: 17px;
+    height: 50px;
+    width: 100%;
+    /* box-shadow: 0px 16px 2px -14px #d7d7d7; */
+    box-shadow: 0px 1px 4px 1px #d7d7d7;
+    -webkit-box-shadow: 0px 1px 4px 1px #d7d7d7;
+    -o-box-shadow: 0px 1px 4px 1px #d7d7d7;
+    -moz-box-shadow: 0px 1px 4px 1px #d7d7d7;
+    margin-bottom: 15px;
+}
+.registr-block {
+    float: right;
+}
+.registr-form-page {
+    float: right;
+    margin-left: 16px;
+}
+.registr-form-page form {
+    padding-right: 0;
+}
+.registr-checkbox {
+    margin-top: 3px;
+    margin-left: 18px;
+}
+
+.registr-checkbox label {
+    color: #3d3d3d;
+    font-size: 16px;
+    font-weight: normal;
+}
+.registr-checkbox input {
+    margin-right: 3px;
+    vertical-align: top;
+}
+.registr-form-page .reg-btn {
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #35bfae;
+}
+.registr-form-page .reg-btn {
+    border: none;
+    outline: none;
+    box-shadow: none;
+    padding: 15px 36px 15px 36px;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -o-border-radius: 2px;
+    -moz-border-radius: 2px;
+}
+.registr-form-page .form-group {
+    /*margin-bottom: 15px;*/
+    margin-bottom: 0;
+    float: right;
+    /* overflow: hidden; */
+    /* padding-left: 0; */
+    padding-right: 0;
+}
+.registr-form-page .reg-btn:focus {
+    background-color: #35bfae;
+    color: #FFFFFF;
+}
+.registr-check-page {
+    overflow: hidden;
+    margin-top: 17px;
+    float: right;
+}
+.left-column {
+    padding-left: 0;
+    padding-right: 0;
+}
+.right-column {
+    margin-top: 19px;
+}
+.right-column .reg-link {
+    color: #8f8e8e;
+    font-size: 16px;
+    text-decoration: none;
+    padding-right: 9px;
+}
+.right-column .enter-link {
+    color: #35bfae;
+    font-size: 16px;
+    text-decoration: underline;
+}
+.right-column .enter-link:hover {
+    text-decoration: none;
+}
+.after-registration h2 {
+    color: #5e6e71;
+    font-size: 26px;
+    font-weight: bold;
+    margin-top: 10px;
+    border-bottom: 1px solid #bebebe;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.after-registr-content {
+    margin-top: 40px;
+}
+.after-registr-content .descr-box {
+    overflow: hidden;
+    margin-bottom: 24px;
+}
+.after-registr-content p {
+    float: left;
+    color: #5e6e71;
+    width: 70%;
+    padding-top: 12px;
+    font-size: 16px;
+}
+.after-registr-content .descr-box span {
+    float: left;
+    padding-right: 15px;
+}
+.reg-girl-photo {
+    float: left;
+    position: relative;
+    bottom: 143px;
+    left: 369px;
+}
+@media (max-width: 1200px) {
+    .registr-facebook-btn {
+        margin-bottom: 12px;
+    }
+    .right-column {
+        margin-top: 10px;
+        padding-left: 0;
+    }
+    .reg-girl-photo {
+        float: left;
+        position: relative;
+        bottom: 181px;
+        left: 211px;
+    }
+    .reg-girl-photo {
+        display: none;
+    }
+    .registration-block {
+        margin-bottom: 50px;
+    }
+    .registr-facebook-btn {
+        font-size: 24px;
+        padding: 8px 39px 8px 26px;
+    }
+    .registr-google-plus-btn {
+        font-size: 24px;
+    }
+    .registr-form-page .form-group {
+        padding-left: 0;
+    }
+    .registr-checkbox {
+        margin-left: 0;
+    }
+    #registration {
+        padding: 34px 50px 40px 50px;
+    }
+
+}
+@media (max-width: 993px) {
+    .after-registr-content p {
+        width: 66%;
+    }
+  .registr-box {
+      margin-top: 20px;
+  }
+    .registr-btn-group {
+        float: left;
+        /*width: 100%;*/
+    }
+    .registr-form-page .registr-box {
+        width: 100%;
+    }
+    .registr-checkbox {
+        margin-left: 0;
+    }
+    .registr-check-page {
+        float: none;
+    }
+    .registr-form-page form {
+        padding-left: 0;
+    }
+    .registr-form-page  {
+        margin-left: 0;
+    }
+
+
+
+}
+@media (min-width: 610px) and (max-width: 993px) {
+    .registr-btn-group {
+        width: 100%;
+    }
+    .registr-facebook-btn {
+    width: 48%;
+    margin-right: 24px;
+    }
+    .registr-google-plus-btn {
+    width: 48%;
+    }
+}
+@media (max-width: 768px) {
+    .after-registration {
+        margin-top: 30px;
+    }
+    .registr-form-page .registr-box {
+        width: 100%;
+    }
+    .registration-block {
+        padding-right: 0;
+    }
+
+}
+@media (max-width: 435px) {
+    .after-registr-content p {
+        width: 100%;
+    }
+    .after-registr-content .descr-box span {
+        float: none;
+        text-align: center;
+    }
+    .descr-box {
+        text-align: center;
+    }
+}
+
+@media (max-width: 450px) {
+    .registr-btn-group a {
+        width: 100%;
+        display: block;
+    }
+    .registr-facebook-btn  i {
+        font-size: 25px;
+    }
+    .registr-google-plus-btn i {
+        font-size: 25px;
+    }
+    .registr-facebook-btn  {
+        font-size: 25px;
+    }
+    .registr-google-plus-btn {
+        font-size: 25px;
+    }
+    .registr-btn-group {
+        width: 100%;
+    }
+}
+@media (max-width: 400px) {
+    .registr-form-page .registr-box {
+        margin-bottom: 5px;
+    }
+    .right-column .enter-link {
+        font-size: 14px;
+    }
+}
+@media (max-width: 363px) {
+    .registr-facebook-btn  i {
+        font-size: 20px;
+    }
+    .registr-google-plus-btn i {
+        font-size: 20px;
+        padding-right: 7px;
+    }
+    .registr-facebook-btn  {
+        font-size: 19px;
+    }
+    .registr-google-plus-btn {
+        font-size: 19px;
+    }
+    .registr-facebook-btn {
+        padding: 9px 22px 8px 16px;
+    }
+    .registr-google-plus-btn {
+        padding: 9px 5px 8px 10px;
+    }
+}
+
+.errorMessage {
+    float: left;
+    /*margin-left: 62px;*/
+    color: red;
+    margin-bottom: 6px;
+}
+.registr-checkbox .errorMessage {
+    margin-left: 0;
+}
+@media (max-width: 993px) {
+    .errorMessage {
+        margin-left: 0;
+        float: none;
+    }
+    .form-group {
+        margin-bottom: 0;
+    }
+}

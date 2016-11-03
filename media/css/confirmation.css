@@ -1,0 +1,71 @@
+.header-bottom {
+    border-bottom: 1px solid #8ed5da;
+}
+
+#content {
+    background-color: #e9ebee;
+}
+.confirm-wrap {
+    margin: 34px 0 65px 0;
+    padding-right: 13px;
+}
+#confirm {
+    background-color: #FFFFFF;
+    padding: 34px 50px 40px 50px;
+}
+.registr-confirm {
+    max-width: 608px;
+    margin: 0 auto;
+    text-align: center;
+}
+.confirm-title {
+    color: #6c7e82;
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.registr-confirm .send-letter {
+    margin-top: 35px;
+    color: #6f6f6f;
+    font-size: 20px;
+}
+.registr-confirm .send-letter a {
+    color: #05a1ad;
+    font-size: 20px;
+    text-decoration: none;
+}
+.registr-confirm .send-letter a:hover {
+    text-decoration: none;
+}
+.envelope {
+    max-width: 226px;
+    margin: 0 auto;
+    padding: 50px 0 45px 0;
+}
+.registr-confirm .check-email {
+    color: #6f6f6f;
+    font-size: 20px;
+}
+@media (max-width: 345px) {
+    #confirm {
+        padding: 34px 35px 40px 35px
+    }
+    .confirm-wrap {
+        padding-right: 0;
+    }
+    .confirm-title {
+        font-size: 24px;
+    }
+    .registr-confirm .send-letter {
+        font-size: 18px;
+    }
+    .registr-confirm .send-letter a {
+        font-size: 18px;
+    }
+    .registr-confirm .check-email {
+        font-size: 18px;
+    }
+    .envelope {
+        padding: 38px 0 42px 0;
+    }
+}

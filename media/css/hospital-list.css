@@ -1,0 +1,296 @@
+.find-more-block {
+    background-color: #05a1ad;
+    padding: 23px 0 23px 0;
+}
+.find-more-name h3 {
+    color: #FFFFFF;
+    font-size: 26px;
+    margin-top: 9px;
+    margin-bottom: 0;
+}
+.clear {
+    clear: both;
+}
+.choose-form-select .find-hospital-btn {
+    background-color: #026a72;
+    font-size: 19px;
+    font-weight: bold;
+    color: #FFFFFF;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -o-border-radius: 0;
+    -moz-border-radius: 0;
+    padding: 10px 16px 11px 16px;
+}
+.choose-form-select .find-hospital-btn:focus {
+    box-shadow: none;
+    outline: none;
+}
+.choose-form-select .select-form {
+    font-size: 20px;
+    color: #858585;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -o-border-radius: 0;
+    -moz-border-radius: 0;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    -o-box-shadow: none;
+    -moz-box-shadow: none;
+    height: 50px;
+}
+.breadcrumbs ul {
+    color: #c3c3c3;
+    font-size: 14px;
+}
+.breadcrumbs ul li {
+    display: inline-block;
+    color: #838383;
+    font-size: 14px;
+    padding: 0 11px 0 11px;
+}
+.breadcrumbs ul li a {
+    color: #838383;
+    font-size: 16px;
+    border-bottom: 1px solid #c3c3c3;
+    text-decoration: none;
+    padding: 6px 3px 6px 3px;
+}
+.breadcrumbs ul li a:hover {
+    color: #05a1ad;
+    border-bottom: 1px solid  #05a1ad;
+}
+.breadcrumbs ul .active a {
+    color: #05a1ad;
+    border-bottom: 1px solid #05a1ad;
+}
+.breadcrumbs ul li:first-child {
+    padding: 0 11px 0 0;
+}
+
+
+#content {
+    padding-top: 28px;
+    background-color: #e9ebee;
+}
+.hospital-list {
+    margin: 19px 0 20px 0;
+}
+.check-form {
+    background-color: #fbfbfb;
+    border-top: 2px solid #05a1ad;
+    padding: 24px 17px 12px 17px;
+}
+.check-form .each-check-block {
+    border-right: 1px solid #d8d8d8;
+}
+.hospital-row {
+    margin-top: 18px;
+}
+.infirmary-inner {
+    margin-bottom: 30px;
+}
+
+.infirm-logo {
+    background-color: #FFFFFF;
+    padding: 65px 0 55px 0;
+    height: 255px;
+}
+.infirm-logo a {
+    text-align: center;
+    display: block;
+}
+.infirm-logo a img {
+    display: inline;
+}
+.infirmary-inner .infirm-info {
+    background-color: #FFFFFF;
+    margin-top: 4px;
+    padding: 20px 17px 19px 17px;
+    border-bottom: 2px solid #05a1ad;
+    overflow: hidden;
+}
+.infirm-info .infirm-title {
+    margin-bottom: 6px;
+    margin-top: 0;
+}
+.infirm-info .infirm-title a {
+    font-size: 24px;
+    font-weight: bold;
+    color: #05a1ad;
+    text-decoration: none;
+}
+.rate {
+    overflow: hidden;
+}
+.rate .num {
+    color: #696969;
+    font-size: 18px;
+    font-weight: bold;
+    float: left;
+    padding-right: 10px;
+}
+.rate ul li {
+    display: inline-block;
+}
+.rate ul {
+    float: left;
+    margin-top: 3px;
+}
+.contact-us-bl {
+    margin-top: 19px;
+
+
+}
+.contact-us-bl h6 {
+    font-size: 17px;
+    font-weight: bold;
+    color: #3e3e3e;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+.contact-us-bl p {
+    color: #2c2c2c;
+    font-size: 15px;
+    margin-bottom: 5px;
+
+}
+.contact-us-bl p span {
+    padding-right: 5px;
+
+}
+@media (min-width: 768px) and (max-width: 1200px) {
+    .contact-us-bl p span {
+        float: left;
+    }
+    .contact-us-bl p {
+        float: left;
+    }
+}
+@media (max-width: 414px) {
+    .contact-us-bl p {
+        float: left;
+    }
+    .contact-us-bl p span {
+        float: left;
+    }
+}
+@media (max-width: 1200px) {
+    .infirm-submit .accept-btn {
+        margin-bottom: 16px;
+    }
+}
+.infirm-submit {
+    overflow: hidden;
+    margin-top: 15px;
+    border-top: 1px solid #e3e3e3;
+    padding-top: 20px;
+}
+.infirm-submit a {
+    color: #FFFFFF;
+    font-size: 17px;
+    font-weight: bold;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -o-border-radius: 3px;
+    -moz-border-radius: 3px;
+    float: left;
+}
+.infirm-submit a:hover {
+    text-decoration: none;
+}
+.infirm-submit .accept-btn {
+    background-color: #00b8c6;
+    padding: 8px 21px 8px 21px;
+    margin-right: 17px;
+}
+.infirm-submit .feedback-btn {
+    background-color: #fd8f2e;
+    padding: 8px 38px 8px 37px;
+}
+.infirm-submit a:focus {
+    text-decoration: none;
+}
+.search-smth {
+    margin-right: 23px;
+    padding-left: 9px;
+}
+.btn-smth {
+    padding-left: 8px;
+}
+.form-srch {
+    padding-left: 0;
+}
+.btn-smth-bottom {
+    display: none;
+}
+@media (max-width: 1200px) {
+    .dd {
+        width: 191px !important;
+    }
+    .search-smth {
+        margin-right: 19px
+    }
+    .choose-form-select {
+        padding-right: 33px;
+    }
+    .find-more-name h3 {
+        line-height: 20px;
+    }
+}
+@media (max-width: 993px) {
+    .find-more-name h3 {
+        text-align: center;
+    }
+    .search-smth {
+        margin-right: 18px;
+        padding-left: 0;
+    }
+    .dd {
+        width: 180px !important;
+    }
+    .find-more-name h3 {
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+    .dd .ddTitle {
+        font-size: 17px;
+    }
+    .dd .ddTitle .ddTitleText {
+        padding: 13px 20px 13px 7px;
+    }
+    .choose-form-select {
+        padding-right: 44px;
+    }
+}
+@media (max-width: 768px) {
+    .dd {
+        width: 100% !important;
+    }
+
+    .search-smth {
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+
+    .form-srch {
+        padding-left: 15px;
+    }
+
+    .choose-form-select {
+        padding-right: 0;
+    }
+
+    .btn-smth {
+        text-align: center;
+        display: none;
+    }
+
+    .btn-smth-bottom {
+        display: block;
+        margin-top: 20px;
+    }
+    .dd .ddTitle .ddTitleText {
+        padding: 13px 20px 13px 13px;
+    }
+}

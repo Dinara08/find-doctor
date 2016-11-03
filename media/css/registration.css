@@ -1,0 +1,304 @@
+.header-bottom {
+    border-bottom: 1px solid #8ed5da;
+}
+#content {
+    background-color: #e9ebee;
+}
+.registration-block {
+    margin-top: 34px;
+    padding-right: 13px;
+}
+#registration {
+    padding: 34px 50px 58px 50px;
+    background-color: #FFFFFF;
+    /*box-shadow: 0px 4px 17px -3px grey;*/
+    box-shadow: 0px 1px 4px 1px #d7d7d7;
+}
+.registr-box {
+    padding-left: 0;
+}
+.registr-btn-group {
+    border-bottom: 1px solid #eeeeee;
+    padding-bottom: 20px;
+    overflow: hidden;
+    margin-right: 60px;
+}
+.registr-btn-group a {
+    float: left;
+}
+.registr-facebook-btn  i {
+    font-size: 30px;
+    color: #FFFFFF;
+    border-right: 1px solid #164e95;
+    padding-right: 14px;
+}
+.registr-facebook-btn em {
+    margin-left: 20px;
+}
+.registr-facebook-btn  {
+    /*background: url(../img/registr-facebook-btn.png) no-repeat;*/
+    background-color: #22589b;
+    /*width: 225px;*/
+    /*height: 54px;*/
+    display: block;
+    margin-right: 17px;
+    color: #FFFFFF;
+    font-size: 26px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 9px 46px 8px 28px;
+}
+.registr-facebook-btn:hover {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.registr-google-plus-btn {
+    /*background: url(../img/registr-google-plus-btn.png) no-repeat;*/
+    background-color: #ff482d;
+    /*width: 225px;*/
+    /*height: 54px;*/
+    display: block;
+    /*margin-right: 17px;*/
+    color: #FFFFFF;
+    font-size: 26px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 9px 17px 8px 12px;
+}
+.registr-google-plus-btn:hover {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.registr-google-plus-btn i {
+    font-size: 27px;
+    color: #FFFFFF;
+    border-right: 1px solid #d03927;
+    padding-right: 14px;
+    overflow: hidden;
+}
+.registr-google-plus-btn em {
+    margin-left: 20px;
+}
+.registr-facebook-btn:focus {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.registr-google-plus-btn:focus {
+    color: #FFFFFF;
+    text-decoration: none;
+    float: left;
+    display: block;
+}
+.registr-form {
+    margin-top: 18px;
+}
+.registr-form input::-webkit-input-placeholder {
+    color: #3d3d3d;
+    font-size: 18px;
+}
+.registr-form input:-moz-placeholder {
+    color: #3d3d3d;
+    font-size: 18px;
+}
+.registr-form input::-moz-placeholder {
+    color: #3d3d3d;
+    font-size: 18px;
+}
+.registr-form input {
+    outline: none;
+}
+.registr-form input:focus {
+    outline: none;
+
+}
+.registr-form .registr-box {
+    background-color: #FFFFFF;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -o-border-radius: 0;
+    -moz-border-radius: 0;
+    padding-left: 17px;
+    height: 50px;
+    width: 88%;
+    /*box-shadow: 0px 16px 2px -14px #d7d7d7;*/
+    box-shadow: 0px 1px 4px 1px #d7d7d7;
+    -webkit-box-shadow: 0px 1px 4px 1px #d7d7d7;
+    -o-box-shadow: 0px 1px 4px 1px #d7d7d7;
+    -moz-box-shadow: 0px 1px 4px 1px #d7d7d7;
+}
+.registr-checkbox {
+    margin-top: 27px;
+}
+.registr-checkbox label {
+    color: #3d3d3d;
+    font-size: 16px;
+    font-weight: normal;
+}
+.registr-checkbox input {
+    margin-right: 3px;
+    vertical-align: top;
+}
+.registr-form .reg-btn {
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #35bfae;
+}
+.registr-form .reg-btn {
+    border: none;
+    outline: none;
+    box-shadow: none;
+    padding: 15px 36px 15px 36px;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -o-border-radius: 2px;
+    -moz-border-radius: 2px;
+}
+.registr-form .form-group {
+    margin-bottom: 19px;
+}
+.registr-form .reg-btn:focus {
+    background-color: #35bfae;
+    color: #FFFFFF;
+}
+.registr-check {
+    overflow: hidden;
+    margin-top: 17px;
+}
+.left-column {
+    padding-left: 0;
+    padding-right: 0;
+}
+.right-column {
+    margin-top: 19px;
+}
+.right-column .reg-link {
+    color: #8f8e8e;
+    font-size: 16px;
+    text-decoration: none;
+    padding-right: 9px;
+}
+.right-column .enter-link {
+    color: #35bfae;
+    font-size: 16px;
+    text-decoration: underline;
+}
+.right-column .enter-link:hover {
+    text-decoration: none;
+}
+.after-registration h2 {
+    color: #5e6e71;
+    font-size: 26px;
+    font-weight: bold;
+    margin-top: 10px;
+    border-bottom: 1px solid #bebebe;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.after-registr-content {
+    margin-top: 40px;
+}
+.after-registr-content .descr-box {
+    overflow: hidden;
+    margin-bottom: 24px;
+}
+.after-registr-content p {
+    float: left;
+    color: #5e6e71;
+    width: 70%;
+    padding-top: 12px;
+    font-size: 18px;
+}
+.after-registr-content .descr-box span {
+    float: left;
+    padding-right: 15px;
+}
+.reg-girl-photo {
+    float: right;
+    position: relative;
+    bottom: 115px;
+    left: 57px;
+}
+@media (max-width: 1200px) {
+    .registr-facebook-btn {
+        margin-bottom: 12px;
+    }
+    .right-column {
+        margin-top: 10px;
+        padding-left: 0;
+    }
+
+}
+@media (max-width: 993px) {
+    .after-registr-content p {
+        width: 66%;
+    }
+
+}
+@media (max-width: 768px) {
+    .after-registration {
+        margin-top: 30px;
+    }
+    .registr-form .registr-box {
+        width: 100%;
+    }
+}
+@media (max-width: 435px) {
+    .after-registr-content p {
+        width: 100%;
+    }
+    .after-registr-content .descr-box span {
+        float: none;
+        text-align: center;
+    }
+    .descr-box {
+        text-align: center;
+    }
+}
+@media (max-width: 600px) {
+    .reg-girl-photo {
+        display: none;
+    }
+}
+@media (max-width: 450px) {
+    .registr-btn-group a {
+        width: 100%;
+        display: block;
+    }
+    .registr-facebook-btn  i {
+        font-size: 25px;
+    }
+    .registr-google-plus-btn i {
+        font-size: 25px;
+    }
+    .registr-facebook-btn  {
+        font-size: 25px;
+    }
+    .registr-google-plus-btn {
+        font-size: 25px;
+    }
+   .registr-btn-group {
+       width: 100%;
+   }
+}
+@media (max-width: 363px) {
+    .registr-facebook-btn  i {
+        font-size: 20px;
+    }
+    .registr-google-plus-btn i {
+        font-size: 20px;
+        padding-right: 7px;
+    }
+    .registr-facebook-btn  {
+        font-size: 20px;
+    }
+    .registr-google-plus-btn {
+        font-size: 20px;
+    }
+    .registr-facebook-btn {
+        padding: 9px 22px 8px 16px;
+    }
+    .registr-google-plus-btn {
+        padding: 9px 5px 8px 10px;
+    }
+}

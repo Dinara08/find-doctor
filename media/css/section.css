@@ -1,0 +1,100 @@
+.header-bottom {
+    border-bottom: 1px solid  #8ed5da;
+}
+#content {
+    padding-top: 28px;
+    background-color: #e9ebee;
+}
+.breadcrumbs ul {
+    color: #c3c3c3;
+    font-size: 14px;
+}
+.breadcrumbs ul li {
+    display: inline-block;
+    color: #838383;
+    font-size: 14px;
+    padding: 0 11px 0 11px;
+}
+.breadcrumbs ul li a {
+    color: #838383;
+    font-size: 16px;
+    border-bottom: 1px solid #c3c3c3;
+    text-decoration: none;
+    padding: 6px 3px 6px 3px;
+}
+.breadcrumbs ul li a:hover {
+    color: #05a1ad;
+    border-bottom: 1px solid  #05a1ad;
+}
+.breadcrumbs ul .active a {
+    color: #05a1ad;
+    border-bottom: 1px solid #05a1ad;
+}
+.breadcrumbs ul li:first-child {
+    padding: 0 11px 0 0;
+}
+.choose-section {
+    margin: 28px 0 50px 0;
+}
+.profession-box .prof-caption {
+    background-color: #03becc;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 11px 0 10px 22px;
+    margin-bottom: 0;
+}
+
+.prof-content {
+    background-color: #FFFFFF;
+    padding: 30px 30px 25px 30px;
+    overflow: hidden;
+    border: 1px solid #d7d7d7;
+}
+
+.prof-list .letter {
+    background-color: #03becc;
+    font-size: 16px;
+    font-weight: bold;
+    color: #FFFFFF;
+    padding:5px 10px 5px 10px;
+    border-top-left-radius: 5px;
+    -webkit-border-top-left-radius: 5px;
+    -o-border-top-left-radius: 5px;
+    -moz-border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+    -o-border-bottom-right-radius: 5px;
+    -moz-border-bottom-right-radius: 5px;
+}
+.prof-list ul {
+    border-bottom: 1px solid #ebebeb;
+    padding: 15px 0 13px 0;
+    margin-bottom: 25px;
+}
+.prof-list .catlistone:last-child ul {
+    border: none;
+}
+.prof-list ul li a {
+    font-size: 16px;
+    color: #525252;
+}
+.prof-list ul li a:hover {
+    text-decoration: none;
+}
+@media (max-width: 585px) {
+    .prof-content {
+        padding: 30px 0px 25px 0px;
+    }
+}
+@media (max-width: 430px) {
+    .col-box {
+        width: 100%;
+    }
+}
+@media (max-width: 380px) {
+    .breadcrumbs ul li {
+        padding: 0;
+        font-size: 14px;
+    }
+}
